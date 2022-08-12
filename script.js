@@ -30,6 +30,7 @@ const render = () => {
   const state = store.getState();
   counterEl.innerText = state.value.toString();
 };
+render();
 store.subscribe(render);
 //button click listen
 incrementEl.addEventListener("click", () => {
