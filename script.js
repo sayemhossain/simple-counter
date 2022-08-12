@@ -32,6 +32,7 @@ const render = () => {
 };
 render();
 store.subscribe(render);
+
 //button click listen
 incrementEl.addEventListener("click", () => {
   store.dispatch({
