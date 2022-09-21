@@ -17,7 +17,7 @@ const increment = (value) => {
 const decrement = (value) => {
   return {
     type: DECREMENT,
-    payload: valu,
+    payload: value,
   };
 };
 
