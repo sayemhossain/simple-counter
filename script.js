@@ -51,7 +51,7 @@ const render = () => {
 render();
 store.subscribe(render);
 
-//button click listen
+//button click listener
 incrementEl.addEventListener("click", () => {
   store.dispatch(increment(5));
 });
