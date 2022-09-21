@@ -48,7 +48,10 @@ const render = () => {
   const state = store.getState();
   counterEl.innerText = state.value.toString();
 };
+
+//update UI initially
 render();
+
 store.subscribe(render);
 
 //button click listener
