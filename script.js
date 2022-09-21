@@ -59,5 +59,5 @@ incrementEl.addEventListener("click", () => {
   store.dispatch(increment(5));
 });
 decrementEl.addEventListener("click", () => {
-  store.dispatch(decrement(2));
+  store.dispatch(decrement(5));
 });
